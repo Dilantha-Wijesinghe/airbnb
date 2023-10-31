@@ -1,16 +1,16 @@
-"use client";
+"use client"
 
-import { AiOutlineMenu } from "react-icons/ai";
-import Avatar from "../Avatar";
-import { useCallback, useState } from "react";
-import MenuItem from "./MenuItem";
+import { AiOutlineMenu } from "react-icons/ai"
+import Avatar from "../Avatar"
+import { useCallback, useState } from "react"
+import MenuItem from "./MenuItem"
 
 const UserMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   const toggleOpen = useCallback(() => {
-    setIsOpen((value) => !value);
-  }, []);
+    setIsOpen((value) => !value)
+  }, [])
 
   return (
     <div className="relative">
@@ -44,7 +44,7 @@ const UserMenu = () => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default UserMenu;
+export default UserMenu

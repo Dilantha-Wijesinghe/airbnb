@@ -1,9 +1,9 @@
-"use client";
+"use client"
 
-import Container from "../Container";
-import Logo from "./Logo";
-import Search from "./Search";
-import UserMenu from "./UserMenu";
+import Container from "../Container"
+import Logo from "./Logo"
+import Search from "./Search"
+import UserMenu from "./UserMenu"
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
         </Container>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
