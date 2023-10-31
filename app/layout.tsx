@@ -1,19 +1,19 @@
-import type { Metadata } from 'next'
-import { Nunito } from 'next/font/google'
-import './globals.css'
-import Navbar from './components/navbar/Navbar'
+import type { Metadata } from "next";
+import { Nunito } from "next/font/google";
+import "./globals.css";
+import Navbar from "./components/navbar/Navbar";
 
-const nunito = Nunito({ subsets: ['latin'] })
+const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Airbnb',
-  description: 'Airbnb clone',
-}
+  title: "Airbnb",
+  description: "Airbnb clone",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -22,5 +22,5 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-  )
+  );
 }
